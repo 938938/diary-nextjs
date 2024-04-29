@@ -1,0 +1,9 @@
+.page {
+  background-color: white;
+  width: 100vw;
+  max-width: 800px;
+  border-radius: 30px;
+  height: 90vh;
+  margin-top: 5vh;
+  position: relative;
+}
