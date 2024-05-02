@@ -1,7 +1,7 @@
-const SimpleList = () => {
-  return (
-    <div>SimpleList</div>
-  )
-}
+import { SimpleDataType } from '@/type';
 
-export default SimpleList
+const SimpleList = ({ data }: { data: SimpleDataType[] }) => {
+  return <div>SimpleList</div>;
+};
+
+export default SimpleList;

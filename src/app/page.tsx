@@ -1,5 +1,5 @@
-import SimpleEditor from '@/components/\bSimple/SimpleEditor';
 import styles from './page.module.css';
+import SimpleMain from '@/components/\bSimple/SimpleMain';
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         <li>일기 메인/쓰기/보기/수정</li>
       </ul>
       <div>
-        <SimpleEditor />
+        <SimpleMain />
       </div>
     </div>
   );
